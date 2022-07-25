@@ -90,7 +90,7 @@
     (uuid 60dcd1fe-7079-4cb8-b509-04558ccf5097)
     (property "Reference" "J1" (id 0) (at 175.26 57.15 0))
     (property "Value" "TOP" (id 1) (at 175.26 59.69 0))
-    (property "Footprint" "Stamp_Attach:SA_top_layer" (id 2) (at 173.99 66.04 0)
+    (property "Footprint" "Stamp_Attach:SA_layer_A" (id 2) (at 173.99 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 173.99 66.04 0)
@@ -110,7 +110,7 @@
 
   (symbol_instances
     (path "/60dcd1fe-7079-4cb8-b509-04558ccf5097"
-      (reference "J1") (unit 1) (value "TOP") (footprint "Stamp_Attach:SA_top_layer")
+      (reference "J1") (unit 1) (value "TOP") (footprint "Stamp_Attach:SA_layer_A")
     )
   )
 )
