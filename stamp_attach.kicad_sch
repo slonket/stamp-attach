@@ -2,7 +2,7 @@
 
   (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
 
-  (paper "A4")
+  (paper "A5")
 
   (lib_symbols
     (symbol "Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
@@ -100,15 +100,15 @@
   )
 
 
-  (symbol (lib_id "Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin") (at 173.99 80.01 0) (unit 1)
+  (symbol (lib_id "Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin") (at 87.63 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 41485de5-6ed3-4c83-b69e-ef83ae18093c)
-    (property "Reference" "J1" (id 0) (at 175.26 71.12 0))
-    (property "Value" "SA_layer_A" (id 1) (at 175.26 73.66 0))
-    (property "Footprint" "Stamp_Attach:SA_layer_A" (id 2) (at 173.99 80.01 0)
+    (property "Reference" "J1" (id 0) (at 88.9 50.8 0))
+    (property "Value" "SA_layer_A" (id 1) (at 88.9 53.34 0))
+    (property "Footprint" "Stamp_Attach:SA_layer_A" (id 2) (at 87.63 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 173.99 80.01 0)
+    (property "Datasheet" "~" (id 3) (at 87.63 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 851f3d61-ba3b-4e6e-abd4-cafa4d9b64cb))
@@ -120,15 +120,15 @@
     (pin "MP" (uuid e76ec524-408a-4daa-89f6-0edfdbcfb621))
   )
 
-  (symbol (lib_id "Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin") (at 191.77 80.01 0) (unit 1)
+  (symbol (lib_id "Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin") (at 105.41 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d541c241-6514-4616-8a13-b9e39e22f5ed)
-    (property "Reference" "J2" (id 0) (at 193.04 71.12 0))
-    (property "Value" "SA_layer_D" (id 1) (at 193.04 73.66 0))
-    (property "Footprint" "Stamp_Attach:SA_layer_D" (id 2) (at 191.77 80.01 0)
+    (property "Reference" "J2" (id 0) (at 106.68 50.8 0))
+    (property "Value" "SA_layer_D" (id 1) (at 106.68 53.34 0))
+    (property "Footprint" "Stamp_Attach:SA_layer_D" (id 2) (at 105.41 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 191.77 80.01 0)
+    (property "Datasheet" "~" (id 3) (at 105.41 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1504993f-0210-4978-9602-705fbf4a4abb))
@@ -138,6 +138,26 @@
     (pin "5" (uuid 71784fda-316d-4591-94f4-4c01f99343ac))
     (pin "6" (uuid 46b9c1d2-6312-4eb8-97f3-93485d1c87ec))
     (pin "MP" (uuid 303b271c-20a6-4e97-9568-2d6bf58ffbdb))
+  )
+
+  (symbol (lib_id "Connector_Generic_MountingPin:Conn_02x03_Odd_Even_MountingPin") (at 123.19 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid e3c3d042-f4c5-4fb1-a6b8-52aa1c14cc0e)
+    (property "Reference" "J3" (id 0) (at 124.46 50.8 0))
+    (property "Value" "test_footprint" (id 1) (at 124.46 53.34 0))
+    (property "Footprint" "Stamp_Attach:Test_Footprint" (id 2) (at 123.19 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 123.19 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8385d9f6-6997-423b-b38d-d0ab00c45f3f))
+    (pin "2" (uuid 2fb9964c-4cd4-4e81-b5e8-f78759d3adb5))
+    (pin "3" (uuid 05e45f00-3c6b-4c0c-9ffb-3fe26fcda007))
+    (pin "4" (uuid 40b38567-9d6a-4691-bccf-1b4dbe39957b))
+    (pin "5" (uuid b45059f3-613f-4b7a-a70a-ed75a9e941e6))
+    (pin "6" (uuid 6f44a349-1ba9-4965-b217-aa1589a07228))
+    (pin "MP" (uuid 04d60995-4f82-4f17-8f82-2f27a0a779cc))
   )
 
   (sheet_instances
@@ -150,6 +170,9 @@
     )
     (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
       (reference "J2") (unit 1) (value "SA_layer_D") (footprint "Stamp_Attach:SA_layer_D")
+    )
+    (path "/e3c3d042-f4c5-4fb1-a6b8-52aa1c14cc0e"
+      (reference "J3") (unit 1) (value "test_footprint") (footprint "Stamp_Attach:Test_Footprint")
     )
   )
 )

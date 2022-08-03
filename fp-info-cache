@@ -1,4 +1,4 @@
-20123989713689569
+20125649223448770
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79148,6 +79148,13 @@ Tab_Mousebites_5mm_2mm
 0
 0
 0
+Stamp_Attach
+Test_Footprint
+
+
+0
+12
+6
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
